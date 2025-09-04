@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Environment>
+    <!--General -->
+    <WaitTime>2</WaitTime>
+    <ScreenshotPath>./../allure-screenshots/</ScreenshotPath>
+    <!--Web & API-->
+    <Browser>Chrome</Browser>
+    <Url>http://localhost:3000/</Url>
+    <UserName>admin</UserName>
+    <Password>admin</Password>
+    <CSV_Location>../ddt/users.csv</CSV_Location>
+    <Execute_Aplitools>no</Execute_Aplitools>  # yes / no for turn on aplitools
+    <Aplitools_key>AIzaSyDM-NUZENgmq4seOVIiFaKnbzpGnvdMPuw</Aplitools_key>
+
+
+    <!--Mobile-->
+    <Mobile_Device>Android</Mobile_Device>
+    <Udid>8613XCCFBB00008315e</Udid>
+    <App_Package>com.shivgadhia.android.ukMortgageCalc</App_Package>
+    <App_Activity>.MainActivity</App_Activity>
+    <Bundle_ID>com.shivgadhia.ukMortgageCalc</Bundle_ID>
+    <Appium_Server>http://localhost:4723/wd/hub</Appium_Server>
+    <Swipe_Duration>200</Swipe_Duration>
+
+
+    <!--Electron-->
+    <Electron_APP>C:/Users/asafb/AppData/Local/Programs/todolist/Todolist.exe</Electron_APP>
+    <Electron_Driver>C:/automation/electrondriver.exe</Electron_Driver>
+
+
+    <!--Desktop-->
+    <Application_Name>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</Application_Name>
+    <WinAppDriver_Service>http://127.0.0.1:4723</WinAppDriver_Service>
+
+
+    <!--DataBase-->
+    <DB_HOST>C:/Users/asafb/PycharmProjects/test_automation_final_project/ddt/final_db.db</DB_HOST>
+
+
+</Environment>
