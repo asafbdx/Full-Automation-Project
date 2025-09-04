@@ -10,7 +10,7 @@
     <Password>admin</Password>
     <CSV_Location>../ddt/users.csv</CSV_Location>
     <Execute_Aplitools>no</Execute_Aplitools>  # yes / no for turn on aplitools
-    <Aplitools_key>AIzaSyDM-NUZENgmq4seOVIiFaKnbzpGnvdMPuw</Aplitools_key>
+    <Aplitools_key>AIzaSyDM-NUZENgmq4seOVIiFaKnbzpXXXX</Aplitools_key>
 
 
     <!--Mobile-->
