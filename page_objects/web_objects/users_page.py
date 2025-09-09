@@ -1,5 +1,15 @@
 from selenium.webdriver.common.by import By
 
+# Page Object Model for the Users management screen.
+#
+# This file defines:
+# - Locators for search, new user, user list, delete user, and confirm delete.
+# - The UsersPage class with methods to search, create, select, and delete users.
+#
+# Purpose:
+# Provide a reusable interface for managing users in automation tests,
+# keeping test cases clean, organized, and maintainable.
+
 search = (By.CLASS_NAME,"css-xmqqi8-input-input")
 new_user = (By.CSS_SELECTOR,"a[href='admin/users/create']")
 users_list = (By.XPATH,"//table[@class='css-elscwy']/tbody/tr")

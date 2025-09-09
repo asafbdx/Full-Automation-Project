@@ -27,6 +27,19 @@ mobile_size = None
 my_db = None
 eyes = Eyes() # Aplitools
 
+# PyTest fixtures and driver management for the Automation Project.
+#
+# This file defines:
+# - Fixtures for initializing and tearing down Web, Mobile, Electron, and Desktop drivers.
+# - Database connection setup and teardown.
+# - WebDriver factories (Chrome, Firefox, Edge, Android, iOS, Electron, Windows Desktop).
+# - Exception handling with automatic screenshot capture and Allure reporting.
+#
+# Purpose:
+# Centralize all environment setup, driver initialization, and global fixtures
+# to keep test files clean, reusable, and maintainable.
+
+
 @pytest.fixture(scope="class")
 def init_web_driver(request):
     globals()["driver"] = get_web_driver()

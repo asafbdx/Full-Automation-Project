@@ -1,5 +1,15 @@
 from selenium.webdriver.common.by import By
 
+# Page Object Model for the application’s upper navigation menu.
+#
+# This file defines:
+# - Locators for Home, Dashboards, Search, New, Help, and Profile.
+# - The UpperMenuPage class with methods to access these menu items.
+#
+# Purpose:
+# Provide a reusable interface for interacting with the upper navigation bar,
+# keeping automation tests clean, organized, and maintainable.
+
 home = (By.LINK_TEXT,"Home")
 dashboard = (By.LINK_TEXT,"Dashboards")
 search = (By.CSS_SELECTOR,"[class='css-1lj8xfd-input-input']")

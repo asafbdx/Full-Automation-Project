@@ -1,5 +1,17 @@
 from selenium.webdriver.common.by import By
 
+
+#Page Object Model for the Windows Calculator (Standard Mode).
+
+#This file defines:
+#- Locators for all calculator buttons and result field.
+#- The StandardPage class with methods to access each UI element.
+
+#Purpose:
+#Encapsulate calculator UI elements in a single page object to keep desktop
+#automation tests clean, reusable, and maintainable.
+
+
 zero = (By.XPATH,"//*[@AutoumationId='num0Button']")
 one = (By.XPATH,"//*[@AutomationId='num1Button']")
 two = (By.XPATH,"//*[@AutomationId='num2Button']")

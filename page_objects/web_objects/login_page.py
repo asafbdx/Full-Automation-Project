@@ -1,5 +1,16 @@
 from selenium.webdriver.common.by import By
 
+
+# Page Object Model for the application’s login screen.
+#
+# This file defines:
+# - Locators for username, password, submit, and skip button.
+# - The LoginPage class with methods to access these UI elements.
+#
+# Purpose:
+# Provide a reusable interface for automating login actions,
+# keeping web automation tests clean, organized, and maintainable.
+
 user_name = (By.NAME,"user")
 password = (By.NAME,"password")
 submit = (By.CLASS_NAME,"css-1ewfzsi-button")

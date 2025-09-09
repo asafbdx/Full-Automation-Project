@@ -3,6 +3,20 @@ import allure
 from extensions.ui_actions import UiActions
 import utilities.manage_pages as page
 
+
+# Flow layer for automating Windows Calculator tests.
+#
+# This file defines:
+# - calculate_flow → Executes a full calculator equation.
+# - calculator_click → Clicks calculator buttons based on input value.
+# - get_result_flow → Retrieves the calculator result.
+# - clear_flow → Clears the calculator result.
+#
+# Purpose:
+# Provide reusable desktop automation flows for the Windows Calculator,
+# encapsulating UI actions to keep desktop test cases simple and maintainable.
+
+
 class DesktopFlows:
 
     @staticmethod

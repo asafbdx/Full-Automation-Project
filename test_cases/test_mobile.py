@@ -5,6 +5,17 @@ from utilities.common_ops import Save, Direction
 from workflows.mobile_flows import MobileFlows
 
 
+# Automated mobile application tests for the Mortgage Calculator app.
+#
+# This file defines:
+# - Verifying mortgage repayment calculations.
+# - Saving transaction details and validating stored data.
+#
+# Purpose:
+# Provide automated coverage for core mobile mortgage flows,
+# ensuring repayment calculations are accurate and saved details are handled correctly.
+
+
 @pytest.mark.usefixtures("init_mobile_driver")
 class Test_Mobile:
     @allure.title("Test 01 - Verify Mortgage Repayment")

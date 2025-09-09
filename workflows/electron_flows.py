@@ -7,6 +7,19 @@ import utilities.manage_pages as page
 from extensions.ui_actions import UiActions
 
 
+# Flow layer for automating the Electron-based Task app.
+#
+# This file defines:
+# - add_new_task_flow → Adds a new task via the input field.
+# - get_number_of_tasks_flow → Returns the number of tasks currently in the list.
+# - empty_list_flow → Removes all tasks from the list.
+#
+# Purpose:
+# Provide reusable flows for interacting with the Electron task management app,
+# encapsulating UI actions to keep Electron test cases clean and maintainable.
+
+
+
 class ElectronFlows:
     @staticmethod
     @allure.step("Add new task flow")

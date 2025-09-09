@@ -10,6 +10,19 @@ import test_cases.conftest as conf
 import test_cases
 
 
+#Web UI interaction utility module for the Automation Project.
+
+#This file provides reusable actions for working with web elements:
+#- Click, right-click, clear, update text.
+#- Mouse over / hover interactions.
+#- Drag and drop operations.
+#- Get attributes from elements.
+
+#Purpose:
+#Centralize Selenium-based UI actions to keep test cases simple, readable,
+#and consistent across the project.
+
+
 class UiActions:
     @staticmethod
     @allure.step("Click on element")

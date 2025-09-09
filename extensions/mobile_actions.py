@@ -5,6 +5,20 @@ import test_cases.conftest as conf
 from test_cases.conftest import m_action
 
 
+
+#Mobile automation utility module for the Automation Project.
+
+#This file provides reusable methods for mobile interactions:
+#- Tap elements multiple times.
+#- Swipe across the screen.
+#- Perform zoom (expand) and pinch (shrink) gestures.
+
+#Purpose:
+#Centralize common Appium-based mobile actions to keep test cases clean,
+#readable, and consistent.
+
+
+
 class MobileActions(UiActions):
     @staticmethod
     @allure.step("Tap on element")

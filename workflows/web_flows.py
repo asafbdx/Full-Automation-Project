@@ -9,6 +9,28 @@ from utilities.common_ops import wait, For, get_data, read_csv
 from utilities.manage_pages import web_upper_menu
 
 
+#  Flow layer for automating Grafana web application.
+#
+# This file defines:
+# - login_flow → Performs Grafana login.
+# - verify_grafana_title → Verifies the main title.
+# - verify_menu_buttons_flows / verify_menu_buttons_flows_smart_assertion → Validates upper menu buttons.
+# - open_side_menu / admin_menu_expand / users_and_access_expand → Navigation flows for side and admin menus.
+# - page_open_users / open_users → Opens the Users page.
+# - create_user → Creates a new user.
+# - search_user → Filters users in the list.
+# - verify_number_of_users → Validates number of users displayed.
+# - delete_user → Deletes user by username or index.
+# - grafana_home → Navigates back to home page.
+#
+# Additional:
+# - Loads test data from CSV for parameterized tests.
+#
+# Purpose:
+# Encapsulate reusable Grafana web workflows to keep test cases simple,
+# readable, and maintainable while supporting data-driven testing.
+
+
 class WebFlows:
     @staticmethod
     @allure.step("Login to Grafana flow")

@@ -11,6 +11,18 @@ from workflows.web_flows import WebFlows
 import test_cases.conftest as conf
 
 
+# Automated web tests for the Grafana application.
+#
+# This file defines:
+# - Login verification.
+# - Upper menu button visibility.
+# - User creation, filtering, and deletion flows.
+# - Visual validation of the users table (Applitools integration).
+#
+# Purpose:
+# Provide end-to-end automated test coverage for Grafana’s core web features,
+# ensuring functionality, UI consistency, and user management workflows.
+
 
 
 @pytest.mark.usefixtures("init_web_driver")

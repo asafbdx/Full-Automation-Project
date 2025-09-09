@@ -1,5 +1,16 @@
 from selenium.webdriver.common.by import By
 
+
+# Page Object Model for the User Creation screen.
+#
+# This file defines:
+# - Locators for name, email, username, password, and create user button.
+# - The NewUsersPage class with methods to access these UI elements.
+#
+# Purpose:
+# Provide a reusable interface for automating user creation,
+# keeping web tests clean, readable, and maintainable.
+
 name = (By.ID,"name-input")
 email = (By.ID,"email-input")
 username = (By.ID,"username-input")

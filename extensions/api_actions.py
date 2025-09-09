@@ -2,6 +2,18 @@ import allure
 import requests
 from requests.auth import HTTPBasicAuth
 
+#API utility module for the Automation Project.
+
+#This file provides reusable methods for interacting with REST APIs:
+#- GET, POST, PUT, DELETE requests with basic authentication.
+#- Extract values from JSON responses.
+#- Handles payloads and headers automatically.
+
+#Purpose:
+#Centralize and simplify API testing logic across the project.
+
+
+
 header = {"Content-Type": "application/json"}
 
 class APIActions:

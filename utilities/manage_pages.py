@@ -33,6 +33,16 @@ electron_task = None
 #Desktop Objects
 standard_calc = None
 
+# Page Object initializer for the Automation Project.
+#
+# This file defines:
+# - Initialization methods for Web, Mobile, Electron, and Desktop pages.
+# - Maps page objects (Login, Main, Users, Calculator, Tasks, etc.) to global variables.
+#
+# Purpose:
+# Centralize Page Object creation to simplify test setup and ensure all flows
+# have consistent access to the required page objects.
+
 class ManagePages:
     @staticmethod
     def init_web_pages():

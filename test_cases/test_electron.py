@@ -5,6 +5,17 @@ from extensions.verifiactions import Verifications
 from workflows.electron_flows import ElectronFlows
 
 
+# Automated tests for the Electron-based Task Management app.
+#
+# This file defines:
+# - Adding a single new task and verifying it appears in the list.
+# - Adding multiple tasks and verifying the correct number is displayed.
+#
+# Purpose:
+# Provide automated coverage for core task management functionality in the Electron app,
+# ensuring tasks can be created, counted, and managed reliably.
+
+
 @pytest.mark.usefixtures("init_electron_driver")
 class Test_Electron:
     @allure.title("Test 01 : Add and Verify New Task")

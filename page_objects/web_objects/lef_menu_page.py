@@ -1,4 +1,18 @@
 from selenium.webdriver.common.by import By
+
+# Page Object Model for the application’s left navigation menu.
+#
+# This file defines:
+# - Locators for Home, Bookmarks, Starred, Dashboards, Explore, Alerting,
+#   Connections, and Administration.
+# - The LeftMenuPage class with methods to access these menu items.
+#
+# Purpose:
+# Provide a clean, reusable interface for navigating the left menu,
+# ensuring web automation tests remain organized, maintainable, and consistent.
+
+
+
 left_menu_open = (By.CLASS_NAME,"css-r835kn-toolbar-button")
 home_page = (By.XPATH,"//span[@class='css-uantyg' and text()='Home']")
 bookmarks = (By.XPATH,"//span[@class='css-uantyg' and text()='Bookmarks']")

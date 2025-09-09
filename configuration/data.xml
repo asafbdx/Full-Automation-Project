@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+  data.xml - Central configuration & test data file for the Automation Project.
+  Stores environment details, user credentials, API data, and global settings.
+  Purpose: keep tests data-driven, reusable, and environment-independent.
+  Usage: Access values in code via get_data("tagName").
+-->
+
 <Environment>
     <!--General -->
     <WaitTime>2</WaitTime>

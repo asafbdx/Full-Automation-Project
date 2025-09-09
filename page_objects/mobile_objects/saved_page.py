@@ -1,5 +1,17 @@
 from selenium.webdriver.common.by import By
 
+#Page Object Model for the Mobile Loan Calculator (Saved Records).
+
+#This file defines:
+#- Locators for saved amount, term, rate, and delete actions.
+#- The SavedPage class with methods to access these UI elements.
+
+#Purpose:
+#Provide a reusable interface for interacting with saved loan records,
+#including viewing details and deleting entries, to keep mobile tests
+#organized and maintainable.
+
+
 amount = (By.ID,"tvAmount")
 term = (By.ID,"tvTerm")
 rate = (By.ID,"tvRate")

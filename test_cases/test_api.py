@@ -3,6 +3,18 @@ import allure
 from extensions.verifiactions import Verifications
 from workflows.api_flows import APIFlows
 
+# Automated API tests for the Grafana application.
+#
+# This file defines:
+# - Creating a new team and verifying response status.
+# - Validating team name and member details.
+# - Updating a team and verifying changes.
+# - Deleting a team and confirming successful removal.
+#
+# Purpose:
+# Provide end-to-end automated API coverage for Grafana’s team management,
+# ensuring correctness of CRUD operations and consistent API responses.
+
 team_name = "Asaf"
 team_email = "asaf@gmail.com"
 

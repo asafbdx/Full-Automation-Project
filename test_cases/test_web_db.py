@@ -6,6 +6,16 @@ from workflows.db_flows import DBFlows
 from workflows.web_flows import WebFlows
 
 
+# Automated web test integrated with database for Grafana.
+#
+# This file defines:
+# - Login verification using credentials retrieved from the database.
+#
+# Purpose:
+# Validate end-to-end functionality by combining database-driven test data
+# with web automation flows, ensuring seamless integration between DB and UI.
+
+
 @pytest.mark.usefixtures("init_web_driver")
 @pytest.mark.usefixtures("init_db_connection")
 

@@ -6,6 +6,20 @@ from extensions.verifiactions import Verifications
 from utilities.common_ops import get_data
 
 
+# Flow layer for automating the Mortgage Calculator mobile app.
+#
+# This file defines:
+# - mortgage_flow → Fills in mortgage details, calculates repayment, and optionally saves results.
+# - verify_mortgage_repayment → Validates repayment amount against the expected value.
+# - swipe_screen → Performs swipe gestures in all four directions.
+# - verify_rate_delete_transaction → Verifies saved transaction rate and deletes the entry.
+#
+# Purpose:
+# Provide reusable mobile automation flows for mortgage calculation and saved transaction handling,
+# encapsulating UI actions to keep mobile test cases clean and maintainable.
+
+
+
 class MobileFlows:
     @staticmethod
     @allure.step("Fill in mortgage details flow")

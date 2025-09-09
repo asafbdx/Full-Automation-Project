@@ -1,5 +1,16 @@
 from selenium.webdriver.common.by import By
 
+#Page Object Model for the Mobile Loan Calculator app.
+
+#This file defines:
+#- Locators for amount, term, rate, calculate, save, repayment, and interest fields.
+#- The CalculatorPage class with methods to access these UI elements.
+
+#Purpose:
+#Provide a reusable interface for interacting with the calculator screen,
+#keeping mobile automation tests clean, organized, and maintainable.
+
+
 amount = (By.ID,"etAmount")
 term = (By.ID,"etTerm")
 rate = (By.ID,"etRate")

@@ -3,6 +3,20 @@ import allure
 from extensions.api_actions import APIActions
 from utilities.common_ops import get_data
 
+
+# API flow layer for Grafana team management.
+#
+# This file defines:
+# - get_value_from_api → Retrieve values from Grafana API responses.
+# - create_team → Create a new Grafana team.
+# - update_team → Update an existing Grafana team.
+# - delete_team → Delete a Grafana team.
+#
+# Purpose:
+# Provide reusable API flows for Grafana team management,
+# encapsulating request/response handling to keep test cases simple and maintainable.
+
+
 url = get_data("Url")
 user = get_data("UserName")
 password = get_data("Password")

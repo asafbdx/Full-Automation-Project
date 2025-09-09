@@ -3,6 +3,20 @@ from selenium.webdriver.remote.webelement import WebElement
 from smart_assertions import soft_assert, verify_expectations
 
 
+#Assertion and verification utilities for the Automation Project.
+
+#This file provides reusable methods to validate test results:
+#- Equality checks (verify_equals).
+#- Element visibility (is_displayed, is_element_displayed_safe).
+#- Count verification (verify_number_of_elements).
+#- Soft assertions for multiple elements.
+
+#Purpose:
+#Centralize verification logic to keep test cases clean, readable,
+#and ensure consistent reporting in Allure.
+
+
+
 class Verifications:
     @staticmethod
     @allure.step("Verify equals")

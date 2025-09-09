@@ -4,6 +4,16 @@ import pytest
 from extensions.verifiactions import Verifications
 from workflows.desktop_flows import DesktopFlows
 
+# Automated desktop application tests for the Windows Calculator.
+#
+# This file defines:
+# - Adding two numbers and verifying the result.
+# - Performing arithmetic actions (multiply, add, divide, subtract) and verifying results.
+#
+# Purpose:
+# Provide automated coverage for basic calculator functions on the Windows desktop app,
+# ensuring accuracy of calculations and stable UI interactions.
+
 
 @pytest.mark.usefixtures("init_desktop_driver")
 class TestDesktop:
