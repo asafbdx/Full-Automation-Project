@@ -156,9 +156,13 @@ To run the **Web tests**, you need to install and run **Grafana v12.0.2** locall
 
 ## ⚠️ Known Issues
 
-- Sometimes there can be conflicts between dependencies that the applications are using.  
+- Sometimes there can be conflicts between dependencies that the applications are using.
+
+
 - This project is intended **for DEMO purposes only**.  
 - In a real production environment, the framework should be **split into separate projects** (Web, API, Mobile, Desktop, Electron, DB) for better scalability and maintainability.  
 - Nevertheless, the file **`requirements.txt`** is attached so you can install the exact same library versions and extensions to reproduce the environment on your own system and run the entire test suite consistently.
 
+
+![automation](https://github.com/user-attachments/assets/28b90bf2-e354-41db-bdfb-2fb04f59339b)
 
