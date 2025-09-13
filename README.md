@@ -164,4 +164,8 @@ To run the **Web tests**, you need to install and run **Grafana v12.0.2** locall
 - Nevertheless, the file **`requirements.txt`** is attached so you can install the exact same library versions and extensions to reproduce the environment on your own system and run the entire test suite consistently.
 
 
+## 🎥 Demo
+
+![Project Demo](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExczk3YWF0cHNldTZpbGcyb3VuODU1NXpmbGV6Mm9zMmNkMnZ6b3lqNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ega4KTz4LTIGFAS5uo/giphy.gif)
+
 
