@@ -150,6 +150,13 @@ To run the **Web tests**, you need to install and run **Grafana v12.0.2** locall
 
 6. Now run the web test with pytest -s -v  .\test_web.py --alluredir=../allure-results
 
+---
+
+## ⚡ Electron Application Under Test
+
+This project automates an **Electron-based Task Management App**.  
+You can download or view the tested application here:  
+🔗 [Electron Task App](https://atidcollege.co.il/downloads/electron/TodoList-Setup.exe)
 
 
 ---
